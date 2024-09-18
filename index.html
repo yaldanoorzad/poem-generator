@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
     <title>AI Poem Generator</title>
 </head>
 <body>
@@ -12,17 +16,20 @@
     </header>
     <main>
         <form action="submit">
-            <input type="text" placeholder="Enter the topic of poem" required autofocus autocomplete="off" >
-            <input type="submit">
+            <input type="text" id="poem-input" placeholder="Enter the topic of poem" required autofocus autocomplete="off" >
+            <input type="submit" id="poem-search">
         </form>
         <br>
+        
+    </main>
+    
         <div id="poem">
             Mejor que todos los fuegos <br>
             que llaman artificiales <br>
             el brillo de las estrellas <br>
             esos fuegos naturales
         </div>
-    </main>
+    
     <footer>
         This AI project is coded by <a href="https://www.shecodes.io/graduates/141695-yalda-noorzad" target="_blank">Yalda Noorzad</a>,
         open-sourced on <a href="https://github.com/yaldanoorzad" target="_blank">Github</a>,

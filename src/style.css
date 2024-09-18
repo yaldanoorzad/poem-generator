@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Nunito", system-ui;
+}
+h1 {
+    font-size: 36px;
+    line-height: 1.5px;
+    color: white;
+    margin-top: 80px;
+}
+main, #poem{
+    background-color: rgba(566, 566, 566, 0.7);
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+#poem { 
+    margin-top: 30px;
+}
+#poem-input {
+    padding: 10px;
+    border-color:#D7DBE4;
+    background-color: #D7DBE4;
+    width: 250px;
+    border-radius: 6px;
+}
+#poem-search {
+    padding: 10px;
+    border-color: #D7DBE4;
+    width: 80px;
+    border-radius: 6px;
+    background-color:#D7DBE4;
+}
+footer {
+    color: white;
+}
