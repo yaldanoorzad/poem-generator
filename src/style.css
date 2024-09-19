@@ -21,6 +21,10 @@ main, #poem{
 }
 #poem { 
     margin-top: 30px;
+    
+}
+.hidden {
+    display: none;
 }
 #poem-input {
     padding: 10px;
@@ -39,3 +43,17 @@ main, #poem{
 footer {
     color: white;
 }
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+  }
+  
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }

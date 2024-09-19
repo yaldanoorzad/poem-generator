@@ -18,12 +18,10 @@ function makepoem(event){
     let apiurl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apikey}`
     axios.get(apiurl).then(generatepoem);
 
-    new Typewriter("#poem", {
-        strings: `Generating the poem...`,
-        autoStart: true,
-        delay: 50,
-        cursor: "",
-    });
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hidden");
+    poemElement.innerHTML = `<div class="blink">⏳ Generating the poem about ${poeminput.value}...</div>`
+
 
 }   
 let submit = document.querySelector("#form");
