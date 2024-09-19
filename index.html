@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -12,10 +13,10 @@
 </head>
 <body>
     <header>
-        <h1>AI Poem Generator</h1>
+        <h1>AI Spanish Poem Generator</h1>
     </header>
     <main>
-        <form action="submit">
+        <form action="submit" id="form">
             <input type="text" id="poem-input" placeholder="Enter the topic of poem" required autofocus autocomplete="off" >
             <input type="submit" id="poem-search">
         </form>
@@ -24,10 +25,6 @@
     </main>
     
         <div id="poem">
-            Mejor que todos los fuegos <br>
-            que llaman artificiales <br>
-            el brillo de las estrellas <br>
-            esos fuegos naturales
         </div>
     
     <footer>
